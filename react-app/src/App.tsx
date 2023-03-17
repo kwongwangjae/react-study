@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import R003_ImportComponent from "./components/R003_ImportComponent";
+import R004_LifecycleEx from "./components/R004_LifecycleEx";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <Div>
       <H1>Start react 200!</H1>
       <p>HTML 적용하기</p>
-      <R003_ImportComponent />
+      <R004_LifecycleEx />
     </Div>
   );
 }

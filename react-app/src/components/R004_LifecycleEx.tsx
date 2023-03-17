@@ -1,12 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 
-const R004_LifecycleEx = () => {
-  console.log("3. rendercall");
-  return (
-    <>
-      <h2>[THIS IS RENDER COMPONENT]</h2>
-    </>
-  );
-};
+class R004_LifecycleEx extends Component {
+  render() {
+    console.log("3. render call");
+    return <h2>[THIS IS RENDER FUNCTION]</h2>;
+  }
+}
 
 export default R004_LifecycleEx;
