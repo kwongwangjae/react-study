@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import LifecycleEx from "./components/R006_LifecycleEx";
+import LifecycleEx from "./components/R007_LifecycleEx";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <Div>
       <H1>Start react 200!</H1>
       <p>HTML 적용하기</p>
-      <LifecycleEx prop_value="FromApp.tsx" />
+      <LifecycleEx prop_value="FromApp.tsx" tmp_state="" />
     </Div>
   );
 }
